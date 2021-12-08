@@ -16,7 +16,8 @@
     "plugin:jest/recommended",
     "plugin:react-hooks/recommended",
     "plugin:import/typescript",
-    "plugin:react-redux/recommended"
+    "plugin:react-redux/recommended",
+    "plugin:react/jsx-runtime"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {

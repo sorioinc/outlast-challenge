@@ -3,6 +3,7 @@ module.exports = {
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
+    '@snek-at/storybook-addon-chakra-ui',
     '@storybook/preset-create-react-app',
   ],
   framework: '@storybook/react',
