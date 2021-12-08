@@ -1,16 +1,17 @@
 import { FC, useCallback, useEffect } from 'react';
-import { Button, StackDivider, VStack } from '@chakra-ui/react';
+import { Button, Flex, Spinner, StackDivider, VStack } from '@chakra-ui/react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { AppDispatch } from 'OutlastTypes';
 
 import { Book } from './components';
 import { fetchBooks } from './booksSlice';
-import { selectBooks, selectNextPageNumber } from './selectors';
+import { selectBooks, selectIsNetworkBusy, selectNextPageNumber } from './selectors';
 
 type Props = Record<string, unknown>;
 
 const Books: FC<Props> = function Books() {
+  const isBusy = useSelector(selectIsNetworkBusy);
   const books = useSelector(selectBooks);
   const nextPage = useSelector(selectNextPageNumber);
 
@@ -38,8 +39,11 @@ const Books: FC<Props> = function Books() {
         ))}
       </VStack>
       <div>
-        <Button colorScheme="teal" variant="outline" onClick={handleOnClick}>
-          Load More Books
+        <Button colorScheme="teal" variant="outline" onClick={handleOnClick} disabled={isBusy}>
+          <Flex alignItems="center">
+            {isBusy ? <Spinner size="xs" mr="7px" /> : null}
+            Load More Books
+          </Flex>
         </Button>
       </div>
     </div>
