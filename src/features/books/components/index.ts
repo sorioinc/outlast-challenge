@@ -1,3 +1,3 @@
-/* eslint-disable import/prefer-default-export */
-
-export { default as Book } from './Book';
+export { BookItem } from './BookItem';
+export { ConnectedBook } from './Book';
+export { ConnectedBooks } from './Books';

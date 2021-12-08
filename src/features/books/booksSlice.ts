@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { GetBookResponse, IBooksState, IsFavoriteResponse } from './types';
 
-import { getAllBooks, getIsFavoriteBook } from './projectService';
+import { getAllBooks, getIsFavoriteBook, putIsFavoriteBook } from './projectService';
 
 const initialState: IBooksState = {
   books: [],
@@ -23,19 +23,19 @@ export const fetchBooks = createAsyncThunk<GetBookResponse, number | undefined>(
   },
 );
 
-export const fetchIsFavorite = createAsyncThunk<IsFavoriteResponse, { bookId: number }>(
+export const fetchIsFavorite = createAsyncThunk<IsFavoriteResponse, number>(
   `${sliceName}/fetchIsFavorite`,
-  async ({ bookId }) => {
+  async bookId => {
     const response = await getIsFavoriteBook(bookId);
 
     return response;
   },
 );
 
-export const updateIsFavorite = createAsyncThunk<IsFavoriteResponse, { bookId: number }>(
-  `${sliceName}/fetchIsFavorite`,
-  async ({ bookId }) => {
-    const response = await getIsFavoriteBook(bookId);
+export const updateIsFavorite = createAsyncThunk<IsFavoriteResponse, number>(
+  `${sliceName}/updateIsFavorite`,
+  async bookId => {
+    const response = await putIsFavoriteBook(bookId);
 
     return response;
   },
@@ -76,6 +76,23 @@ const booksSlice = createSlice({
       })
       .addCase(fetchIsFavorite.rejected, (state, action) => {
         state.isFetchingFavorite = false;
+        state.error = action.error?.message;
+      });
+    builder
+      .addCase(updateIsFavorite.pending, state => {
+        state.isUpdatingFavorite = true;
+        state.error = undefined;
+      })
+      .addCase(updateIsFavorite.fulfilled, (state, action) => {
+        const book = state.books.find(b => b.id === action.payload.bookId);
+        if (book) {
+          book.isFavorite = action.payload.isFavorite;
+        }
+        state.isUpdatingFavorite = false;
+        state.error = undefined;
+      })
+      .addCase(updateIsFavorite.rejected, (state, action) => {
+        state.isUpdatingFavorite = false;
         state.error = action.error?.message;
       });
   },

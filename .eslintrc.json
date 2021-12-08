@@ -84,7 +84,8 @@
     {
       "files": ["*.stories.tsx"],
       "rules": {
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
+        "@typescript-eslint/no-empty-function": "off"
       }
     }
   ],

@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, Outlet } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 
-import './App.css';
+import './App.scss';
 
-import { Books } from './features/books';
+import { BooksRoute } from './features/books';
 
 const App = function App() {
   useEffect(() => {
@@ -16,12 +16,10 @@ const App = function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/books" element={<Books />}>
-          <Route path=":id" element={<div />} />
-        </Route>
-
+        <Route path="/books/*" element={<BooksRoute />} />
         <Route path="/" element={<Navigate replace to="/books" />} />
       </Routes>
+      <Outlet />
     </div>
   );
 };
