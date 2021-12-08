@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { Image, Stat, StatLabel, StatHelpText, Flex, Box } from '@chakra-ui/react';
 
 export interface BookProps {
+  id: number;
   title: string;
   author: string;
   cover: string;

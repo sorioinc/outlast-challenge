@@ -14,9 +14,9 @@ const initialState: IBooksState = {
 
 const sliceName = 'books';
 
-export const fetchBooks = createAsyncThunk<GetBookResponse, { pageNumber?: number }>(
+export const fetchBooks = createAsyncThunk<GetBookResponse, number | undefined>(
   `${sliceName}/fetchBooks`,
-  async ({ pageNumber }) => {
+  async pageNumber => {
     const response = await getAllBooks(pageNumber);
 
     return response;

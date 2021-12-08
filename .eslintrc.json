@@ -77,7 +77,8 @@
     "@typescript-eslint/lines-between-class-members": "error",
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error"],
-    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state"] }]
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state"] }],
+    "import/no-unresolved": ["error", { "ignore": ["OutlastTypes"] }]
   },
   "overrides": [
     {
