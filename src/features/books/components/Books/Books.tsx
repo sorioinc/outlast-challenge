@@ -25,9 +25,15 @@ const Books: FC<BooksProps> = function Books({ isBusy, books, onLoadMore }) {
         ))}
       </VStack>
       <div>
-        <Button colorScheme="teal" variant="outline" onClick={onLoadMore} disabled={isBusy}>
+        <Button
+          colorScheme="teal"
+          variant="outline"
+          onClick={onLoadMore}
+          disabled={isBusy}
+          data-testid="LoadMoreButton"
+        >
           <Flex alignItems="center">
-            {isBusy ? <Spinner size="xs" mr="7px" /> : null}
+            {isBusy ? <Spinner size="xs" mr="7px" data-testid="Loading" /> : null}
             Load More Books
           </Flex>
         </Button>

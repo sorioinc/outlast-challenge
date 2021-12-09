@@ -11,7 +11,7 @@ export interface BookItemProps {
 
 const BookItem: FC<BookItemProps> = function Book({ id, title, authors, cover }) {
   return (
-    <Link to={`${id}`}>
+    <Link to={`${id}`} data-testid={`bookItem-${id}`}>
       <Flex direction="row" p={5}>
         <Box boxSize="75px" borderRadius="sm" overflow="hidden">
           <Image src={cover} alt={title} objectFit="cover" />

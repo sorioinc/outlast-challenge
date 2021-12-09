@@ -2,7 +2,7 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
 import { booksReducer } from './features/books';
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   books: booksReducer,
 });
 

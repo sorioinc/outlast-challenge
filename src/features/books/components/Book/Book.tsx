@@ -1,5 +1,5 @@
 import { FC, useCallback } from 'react';
-import { Image, Flex, Box, Text, Heading, Button } from '@chakra-ui/react';
+import { Image, Flex, Box, Text, Heading } from '@chakra-ui/react';
 import { FiHeart } from 'react-icons/fi';
 
 import './Books.scss';
@@ -21,7 +21,7 @@ const Book: FC<BookProps> = function Book({
   isFavorite,
   onMarkAsFavorite,
 }) {
-  const handleOnlick = useCallback(() => {
+  const handleOnClick = useCallback(() => {
     onMarkAsFavorite(id);
   }, [onMarkAsFavorite, id]);
 
@@ -35,7 +35,12 @@ const Book: FC<BookProps> = function Book({
         <Text>{authors}</Text>
       </Box>
       <Box>
-        <button type="button" aria-label="Mark as Favorite" onClick={handleOnlick}>
+        <button
+          type="button"
+          aria-label="Mark as Favorite"
+          onClick={handleOnClick}
+          data-testid="FavoriteButton"
+        >
           <FiHeart className={`${isFavorite ? 'filled' : 'heart'}`} size="25px" />
         </button>
       </Box>

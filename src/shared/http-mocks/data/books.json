@@ -1,0 +1,396 @@
+{
+  "1": {
+    "nextPage": 2,
+    "books": [
+      {
+        "id": 84,
+        "title": "Frankenstein; Or, The Modern Prometheus",
+        "authors": "Shelley, Mary Wollstonecraft",
+        "cover": "https://www.gutenberg.org/cache/epub/84/pg84.cover.small.jpg"
+      },
+      {
+        "id": 1342,
+        "title": "Pride and Prejudice",
+        "authors": "Austen, Jane",
+        "cover": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg"
+      },
+      {
+        "id": 25344,
+        "title": "The Scarlet Letter",
+        "authors": "Hawthorne, Nathaniel",
+        "cover": "https://www.gutenberg.org/cache/epub/25344/pg25344.cover.small.jpg"
+      },
+      {
+        "id": 46,
+        "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+        "authors": "Dickens, Charles",
+        "cover": "https://www.gutenberg.org/cache/epub/46/pg46.cover.medium.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Alice's Adventures in Wonderland",
+        "authors": "Carroll, Lewis",
+        "cover": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg"
+      },
+      {
+        "id": 345,
+        "title": "Dracula",
+        "authors": "Stoker, Bram",
+        "cover": "https://www.gutenberg.org/cache/epub/345/pg345.cover.small.jpg"
+      },
+      {
+        "id": 2701,
+        "title": "Moby Dick; Or, The Whale",
+        "authors": "Melville, Herman",
+        "cover": "https://www.gutenberg.org/cache/epub/2701/pg2701.cover.small.jpg"
+      },
+      {
+        "id": 2542,
+        "title": "A Doll's House : a play",
+        "authors": "Ibsen, Henrik",
+        "cover": "https://www.gutenberg.org/cache/epub/2542/pg2542.cover.small.jpg"
+      },
+      {
+        "id": 174,
+        "title": "The Picture of Dorian Gray",
+        "authors": "Wilde, Oscar",
+        "cover": "https://www.gutenberg.org/cache/epub/174/pg174.cover.medium.jpg"
+      },
+      {
+        "id": 1661,
+        "title": "The Adventures of Sherlock Holmes",
+        "authors": "Doyle, Arthur Conan",
+        "cover": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.small.jpg"
+      },
+      {
+        "id": 1080,
+        "title": "A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+        "authors": "Swift, Jonathan",
+        "cover": "https://www.gutenberg.org/cache/epub/1080/pg1080.cover.small.jpg"
+      },
+      {
+        "id": 43,
+        "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+        "authors": "Stevenson, Robert Louis",
+        "cover": "https://www.gutenberg.org/cache/epub/43/pg43.cover.medium.jpg"
+      },
+      {
+        "id": 64317,
+        "title": "The Great Gatsby",
+        "authors": "Fitzgerald, F. Scott (Francis Scott)",
+        "cover": "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.small.jpg"
+      },
+      {
+        "id": 844,
+        "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+        "authors": "Wilde, Oscar",
+        "cover": "https://www.gutenberg.org/cache/epub/844/pg844.cover.medium.jpg"
+      },
+      {
+        "id": 98,
+        "title": "A Tale of Two Cities",
+        "authors": "Dickens, Charles",
+        "cover": "https://www.gutenberg.org/cache/epub/98/pg98.cover.medium.jpg"
+      },
+      {
+        "id": 1952,
+        "title": "The Yellow Wallpaper",
+        "authors": "Gilman, Charlotte Perkins",
+        "cover": "https://www.gutenberg.org/cache/epub/1952/pg1952.cover.small.jpg"
+      },
+      {
+        "id": 5200,
+        "title": "Metamorphosis",
+        "authors": "Kafka, Franz",
+        "cover": "https://www.gutenberg.org/cache/epub/5200/pg5200.cover.medium.jpg"
+      },
+      {
+        "id": 1260,
+        "title": "Jane Eyre: An Autobiography",
+        "authors": "Brontë, Charlotte",
+        "cover": "https://www.gutenberg.org/cache/epub/1260/pg1260.cover.small.jpg"
+      },
+      {
+        "id": 219,
+        "title": "Heart of Darkness",
+        "authors": "Conrad, Joseph",
+        "cover": "https://www.gutenberg.org/cache/epub/219/pg219.cover.small.jpg"
+      },
+      {
+        "id": 1232,
+        "title": "The Prince",
+        "authors": "Machiavelli, Niccolò",
+        "cover": "https://www.gutenberg.org/cache/epub/1232/pg1232.cover.small.jpg"
+      },
+      {
+        "id": 205,
+        "title": "Walden, and On The Duty Of Civil Disobedience",
+        "authors": "Thoreau, Henry David",
+        "cover": "https://www.gutenberg.org/cache/epub/205/pg205.cover.small.jpg"
+      },
+      {
+        "id": 76,
+        "title": "Adventures of Huckleberry Finn",
+        "authors": "Twain, Mark",
+        "cover": "https://www.gutenberg.org/cache/epub/76/pg76.cover.small.jpg"
+      },
+      {
+        "id": 23,
+        "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+        "authors": "Douglass, Frederick",
+        "cover": "https://www.gutenberg.org/cache/epub/23/pg23.cover.medium.jpg"
+      },
+      {
+        "id": 2500,
+        "title": "Siddhartha",
+        "authors": "Hesse, Hermann",
+        "cover": "https://www.gutenberg.org/cache/epub/2500/pg2500.cover.small.jpg"
+      },
+      {
+        "id": 2554,
+        "title": "Crime and Punishment",
+        "authors": "Dostoyevsky, Fyodor",
+        "cover": "https://www.gutenberg.org/cache/epub/2554/pg2554.cover.medium.jpg"
+      },
+      {
+        "id": 4980,
+        "title": "Old Granny Fox",
+        "authors": "Burgess, Thornton W. (Thornton Waldo)",
+        "cover": "https://www.gutenberg.org/cache/epub/4980/pg4980.cover.medium.jpg"
+      },
+      {
+        "id": 2591,
+        "title": "Grimms' Fairy Tales",
+        "authors": "Grimm, Wilhelm, Grimm, Jacob",
+        "cover": "https://www.gutenberg.org/cache/epub/2591/pg2591.cover.small.jpg"
+      },
+      {
+        "id": 16328,
+        "title": "Beowulf: An Anglo-Saxon Epic Poem",
+        "authors": "",
+        "cover": "https://www.gutenberg.org/cache/epub/16328/pg16328.cover.small.jpg"
+      },
+      {
+        "id": 1727,
+        "title": "The Odyssey: Rendered into English prose for the use of those who cannot read the original",
+        "authors": "Homer",
+        "cover": "https://www.gutenberg.org/cache/epub/1727/pg1727.cover.medium.jpg"
+      },
+      {
+        "id": 1250,
+        "title": "Anthem",
+        "authors": "Rand, Ayn",
+        "cover": "https://www.gutenberg.org/cache/epub/1250/pg1250.cover.medium.jpg"
+      },
+      {
+        "id": 160,
+        "title": "The Awakening, and Selected Short Stories",
+        "authors": "Chopin, Kate",
+        "cover": "https://www.gutenberg.org/cache/epub/160/pg160.cover.small.jpg"
+      },
+      {
+        "id": 1400,
+        "title": "Great Expectations",
+        "authors": "Dickens, Charles",
+        "cover": "https://www.gutenberg.org/cache/epub/1400/pg1400.cover.small.jpg"
+      }
+    ]
+  },
+  "2": {
+    "nextPage": 3,
+    "books": [
+      {
+        "id": 6130,
+        "title": "The Iliad",
+        "authors": "Homer",
+        "cover": "https://www.gutenberg.org/cache/epub/6130/pg6130.cover.small.jpg"
+      },
+      {
+        "id": 2600,
+        "title": "War and Peace",
+        "authors": "Tolstoy, Leo, graf",
+        "cover": "https://www.gutenberg.org/cache/epub/2600/pg2600.cover.small.jpg"
+      },
+      {
+        "id": 41,
+        "title": "The Legend of Sleepy Hollow",
+        "authors": "Irving, Washington",
+        "cover": "https://www.gutenberg.org/cache/epub/41/pg41.cover.medium.jpg"
+      },
+      {
+        "id": 408,
+        "title": "The Souls of Black Folk",
+        "authors": "Du Bois, W. E. B. (William Edward Burghardt)",
+        "cover": "https://www.gutenberg.org/cache/epub/408/pg408.cover.medium.jpg"
+      },
+      {
+        "id": 514,
+        "title": "Little Women",
+        "authors": "Alcott, Louisa May",
+        "cover": "https://www.gutenberg.org/cache/epub/514/pg514.cover.small.jpg"
+      },
+      {
+        "id": 4300,
+        "title": "Ulysses",
+        "authors": "Joyce, James",
+        "cover": "https://www.gutenberg.org/cache/epub/4300/pg4300.cover.small.jpg"
+      },
+      {
+        "id": 63256,
+        "title": "The American Diary of a Japanese Girl",
+        "authors": "Noguchi, Yoné",
+        "cover": "https://www.gutenberg.org/cache/epub/63256/pg63256.cover.medium.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Peter Pan",
+        "authors": "Barrie, J. M. (James Matthew)",
+        "cover": "https://www.gutenberg.org/cache/epub/16/pg16.cover.small.jpg"
+      },
+      {
+        "id": 74,
+        "title": "The Adventures of Tom Sawyer, Complete",
+        "authors": "Twain, Mark",
+        "cover": "https://www.gutenberg.org/cache/epub/74/pg74.cover.small.jpg"
+      },
+      {
+        "id": 2852,
+        "title": "The Hound of the Baskervilles",
+        "authors": "Doyle, Arthur Conan",
+        "cover": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.medium.jpg"
+      },
+      {
+        "id": 2814,
+        "title": "Dubliners",
+        "authors": "Joyce, James",
+        "cover": "https://www.gutenberg.org/cache/epub/2814/pg2814.cover.medium.jpg"
+      },
+      {
+        "id": 1184,
+        "title": "The Count of Monte Cristo, Illustrated",
+        "authors": "Dumas, Alexandre",
+        "cover": "https://www.gutenberg.org/cache/epub/1184/pg1184.cover.medium.jpg"
+      },
+      {
+        "id": 45,
+        "title": "Anne of Green Gables",
+        "authors": "Montgomery, L. M. (Lucy Maud)",
+        "cover": "https://www.gutenberg.org/cache/epub/45/pg45.cover.medium.jpg"
+      },
+      {
+        "id": 996,
+        "title": "Don Quixote",
+        "authors": "Cervantes Saavedra, Miguel de",
+        "cover": "https://www.gutenberg.org/cache/epub/996/pg996.cover.medium.jpg"
+      },
+      {
+        "id": 55,
+        "title": "The Wonderful Wizard of Oz",
+        "authors": "Baum, L. Frank (Lyman Frank)",
+        "cover": "https://www.gutenberg.org/cache/epub/55/pg55.cover.small.jpg"
+      },
+      {
+        "id": 120,
+        "title": "Treasure Island",
+        "authors": "Stevenson, Robert Louis",
+        "cover": "https://www.gutenberg.org/cache/epub/120/pg120.cover.medium.jpg"
+      },
+      {
+        "id": 3207,
+        "title": "Leviathan",
+        "authors": "Hobbes, Thomas",
+        "cover": "https://www.gutenberg.org/cache/epub/3207/pg3207.cover.medium.jpg"
+      },
+      {
+        "id": 7370,
+        "title": "Second Treatise of Government",
+        "authors": "Locke, John",
+        "cover": "https://www.gutenberg.org/cache/epub/7370/pg7370.cover.medium.jpg"
+      },
+      {
+        "id": 3825,
+        "title": "Pygmalion",
+        "authors": "Shaw, Bernard",
+        "cover": "https://www.gutenberg.org/cache/epub/3825/pg3825.cover.medium.jpg"
+      },
+      {
+        "id": 768,
+        "title": "Wuthering Heights",
+        "authors": "Brontë, Emily",
+        "cover": "https://www.gutenberg.org/cache/epub/768/pg768.cover.small.jpg"
+      },
+      {
+        "id": 203,
+        "title": "Uncle Tom's Cabin",
+        "authors": "Stowe, Harriet Beecher",
+        "cover": "https://www.gutenberg.org/cache/epub/203/pg203.cover.medium.jpg"
+      },
+      {
+        "id": 58585,
+        "title": "The Prophet",
+        "authors": "Gibran, Kahlil",
+        "cover": "https://www.gutenberg.org/cache/epub/58585/pg58585.cover.medium.jpg"
+      },
+      {
+        "id": 158,
+        "title": "Emma",
+        "authors": "Austen, Jane",
+        "cover": "https://www.gutenberg.org/cache/epub/158/pg158.cover.medium.jpg"
+      },
+      {
+        "id": 32449,
+        "title": "Japanese Girls and Women: Revised and Enlarged Edition",
+        "authors": "Bacon, Alice Mabel",
+        "cover": "https://www.gutenberg.org/cache/epub/32449/pg32449.cover.small.jpg"
+      },
+      {
+        "id": 215,
+        "title": "The Call of the Wild",
+        "authors": "London, Jack",
+        "cover": "https://www.gutenberg.org/cache/epub/215/pg215.cover.medium.jpg"
+      },
+      {
+        "id": 2148,
+        "title": "The Works of Edgar Allan Poe — Volume 2",
+        "authors": "Poe, Edgar Allan",
+        "cover": "https://www.gutenberg.org/cache/epub/2148/pg2148.cover.medium.jpg"
+      },
+      {
+        "id": 3600,
+        "title": "Essays of Michel de Montaigne — Complete",
+        "authors": "Montaigne, Michel de",
+        "cover": "https://www.gutenberg.org/cache/epub/3600/pg3600.cover.small.jpg"
+      },
+      {
+        "id": 36,
+        "title": "The War of the Worlds",
+        "authors": "Wells, H. G. (Herbert George)",
+        "cover": "https://www.gutenberg.org/cache/epub/36/pg36.cover.small.jpg"
+      },
+      {
+        "id": 829,
+        "title": "Gulliver's Travels into Several Remote Nations of the World",
+        "authors": "Swift, Jonathan",
+        "cover": "https://www.gutenberg.org/cache/epub/829/pg829.cover.medium.jpg"
+      },
+      {
+        "id": 1497,
+        "title": "The Republic",
+        "authors": "Plato",
+        "cover": "https://www.gutenberg.org/cache/epub/1497/pg1497.cover.small.jpg"
+      },
+      {
+        "id": 20203,
+        "title": "Autobiography of Benjamin Franklin",
+        "authors": "Franklin, Benjamin",
+        "cover": "https://www.gutenberg.org/cache/epub/20203/pg20203.cover.small.jpg"
+      },
+      {
+        "id": 902,
+        "title": "The Happy Prince, and Other Tales",
+        "authors": "Wilde, Oscar",
+        "cover": "https://www.gutenberg.org/cache/epub/902/pg902.cover.small.jpg"
+      }
+    ]
+  }
+}
